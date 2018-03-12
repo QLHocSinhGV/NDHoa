@@ -109,5 +109,4 @@ namespace QLHocSinhTHPT
                 m_HocLucCtrl.LuuHocLuc();
             }
         }
-
 }
