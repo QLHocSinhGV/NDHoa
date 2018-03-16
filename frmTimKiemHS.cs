@@ -23,7 +23,6 @@ namespace QLHocSinhTHPT
             DataService.OpenConnection();
         }
         #endregion
-
         #region Load
         private void frmTimKiemHS_Load(object sender, EventArgs e)
         {
