@@ -19,7 +19,6 @@ namespace QLHocSinhTHPT
         NgheNghiepCtrl  m_NgheNghiepMeCtrl  = new NgheNghiepCtrl();
         QuyDinh         quyDinh             = new QuyDinh();
         #endregion
-
         #region Constructor
         public frmHocSinh()
         {
