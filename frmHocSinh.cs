@@ -34,7 +34,6 @@ namespace QLHocSinhTHPT
             m_TonGiaoCtrl.HienThiComboBox(cmbTonGiao);
             m_NgheNghiepChaCtrl.HienThiComboBox(cmbNgheNghiepCha);
             m_NgheNghiepMeCtrl.HienThiComboBox(cmbNgheNghiepMe);
-
             m_DanTocCtrl.HienThiDataGridViewComboBoxColumn(colMaDanToc);
             m_TonGiaoCtrl.HienThiDataGridViewComboBoxColumn(colMaTonGiao);
             m_NgheNghiepChaCtrl.HienThiDataGridViewComboBoxColumnNNCha(colMaNNghiepCha);
