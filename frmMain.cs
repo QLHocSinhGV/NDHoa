@@ -18,7 +18,6 @@ namespace QLHocSinhTHPT
         frmNguoiDung    m_FrmNguoiDung  = null;
         frmConnection   m_Connection    = null;
         #endregion
-
         #region frmMain
         #region Constructor
         public frmMain()
@@ -38,7 +37,6 @@ namespace QLHocSinhTHPT
             {
                 Default();
                 DangNhap();
-
                 this.Cursor = MyCursors.Create(System.IO.Path.Combine(Application.StartupPath, "Pointer.cur"));
 
                 // Create the list of frequently used commands for the QAT Customize menu

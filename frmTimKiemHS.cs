@@ -15,7 +15,6 @@ namespace QLHocSinhTHPT
         TonGiaoCtrl     m_TonGiaoCtrl   = new TonGiaoCtrl();   
         HocSinhCtrl     m_HocSinhCtrl   = new HocSinhCtrl();
         #endregion
-
         #region Constructor
         public frmTimKiemHS()
         {
