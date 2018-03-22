@@ -15,7 +15,6 @@ namespace QLHocSinhTHPT
         HocLucCtrl  m_HocLucCtrl    = new HocLucCtrl();
         QuyDinh     quyDinh         = new QuyDinh();
         #endregion
-
         #region Costructor
         public frmHocLuc()
         {
