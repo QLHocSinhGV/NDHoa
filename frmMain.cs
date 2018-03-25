@@ -43,7 +43,6 @@ namespace QLHocSinhTHPT
                 ribbonControl.QatFrequentCommands.Add(btnDangNhap);
                 ribbonControl.QatFrequentCommands.Add(btnDangXuat);
                 ribbonControl.QatFrequentCommands.Add(btnThoat);
-
                 // Load Quick Access Toolbar layout if one is saved from last session...
                 Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.CurrentUser.OpenSubKey(@"Software\DevComponents\Ribbon");
                 if (key != null)
