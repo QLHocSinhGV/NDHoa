@@ -1235,7 +1235,6 @@
         private DevComponents.DotNetBar.ButtonItem btnMenuMain;
         private DevComponents.DotNetBar.ButtonItem btnDangNhapContext;
         private DevComponents.DotNetBar.ButtonItem btnDangXuatContext;
-        private DevComponents.DotNetBar.ButtonItem btnDoiMatKhauContext;
         private DevComponents.DotNetBar.RibbonPanel ribbonPanelTraCuu;
         private DevComponents.DotNetBar.RibbonTabItem ribbonTabTraCuu;
         private DevComponents.DotNetBar.RibbonBar ribbonBarTraCuu;
