@@ -1227,7 +1227,6 @@
         private DevComponents.DotNetBar.ButtonItem btnPhucHoi;
         private DevComponents.DotNetBar.ButtonItem btnThoat;
         private DevComponents.DotNetBar.LabelX lblNguoiDung;
-        private DevComponents.DotNetBar.RibbonBar ribbonBarXuatDanhSach;
         private DevComponents.DotNetBar.ButtonItem btnDanhSachHocSinh;
         private DevComponents.DotNetBar.ButtonItem btnDanhSachGiaoVien;
         private DevComponents.DotNetBar.ButtonItem btnDanhSachLopHoc;
