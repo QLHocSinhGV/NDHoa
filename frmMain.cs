@@ -29,7 +29,6 @@ namespace QLHocSinhTHPT
             f.Close();
         }
         #endregion
-
         #region Load
         private void frmMain_Load(object sender, System.EventArgs e)
         {

@@ -95,7 +95,6 @@ namespace QLHocSinhTHPT
             }
             return true;
         }
-
         private void bindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             if (KiemTraTruocKhiLuu("colMaHocLuc")           == true &&
