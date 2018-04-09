@@ -20,6 +20,7 @@
             if (disposing && (components != null))
                 components.Dispose();
         }
+
         #region Windows Form Designer generated code
         
         /// <summary>
@@ -1227,6 +1228,7 @@
         private DevComponents.DotNetBar.ButtonItem btnPhucHoi;
         private DevComponents.DotNetBar.ButtonItem btnThoat;
         private DevComponents.DotNetBar.LabelX lblNguoiDung;
+        private DevComponents.DotNetBar.RibbonBar ribbonBarXuatDanhSach;
         private DevComponents.DotNetBar.ButtonItem btnDanhSachHocSinh;
         private DevComponents.DotNetBar.ButtonItem btnDanhSachGiaoVien;
         private DevComponents.DotNetBar.ButtonItem btnDanhSachLopHoc;
@@ -1234,6 +1236,7 @@
         private DevComponents.DotNetBar.ButtonItem btnMenuMain;
         private DevComponents.DotNetBar.ButtonItem btnDangNhapContext;
         private DevComponents.DotNetBar.ButtonItem btnDangXuatContext;
+        private DevComponents.DotNetBar.ButtonItem btnDoiMatKhauContext;
         private DevComponents.DotNetBar.RibbonPanel ribbonPanelTraCuu;
         private DevComponents.DotNetBar.RibbonTabItem ribbonTabTraCuu;
         private DevComponents.DotNetBar.RibbonBar ribbonBarTraCuu;
