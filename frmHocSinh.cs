@@ -132,11 +132,7 @@ namespace QLHocSinhTHPT
                 KiemTraTruocKhiLuu("colHoTenMe") == true &&
                 KiemTraTruocKhiLuu("colMaNNghiepMe") == true)
             {
-                if (KiemTraDoTuoiTruocKhiLuu("colNgaySinh") == true)
-                {
-                    bindingNavigatorPositionItem.Focus();
-                    m_HocSinhCtrl.LuuHocSinh();
-                }
+               
             }
         }
         #endregion
