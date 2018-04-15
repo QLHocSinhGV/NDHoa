@@ -28,9 +28,7 @@ namespace QLHocSinhTHPT
             m_DanTocCtrl.HienThiComboBox(cmbDanToc);
             m_TonGiaoCtrl.HienThiComboBox(cmbTonGiao);
         }
-        #endregion
-
-        #region BindingNavigatorItems
+       s
         private void bindingNavigatorExitItem_Click(object sender, EventArgs e)
         {
             this.Close();
