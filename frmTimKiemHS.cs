@@ -15,6 +15,7 @@ namespace QLHocSinhTHPT
         TonGiaoCtrl     m_TonGiaoCtrl   = new TonGiaoCtrl();   
         HocSinhCtrl     m_HocSinhCtrl   = new HocSinhCtrl();
         #endregion
+
         #region Constructor
         public frmTimKiemHS()
         {
@@ -22,17 +23,30 @@ namespace QLHocSinhTHPT
             DataService.OpenConnection();
         }
         #endregion
+
         #region Load
         private void frmTimKiemHS_Load(object sender, EventArgs e)
         {
             m_DanTocCtrl.HienThiComboBox(cmbDanToc);
             m_TonGiaoCtrl.HienThiComboBox(cmbTonGiao);
         }
-       
+        #endregion
+
+        #region BindingNavigatorItems
         private void bindingNavigatorExitItem_Click(object sender, EventArgs e)
         {
             this.Close();
         }
         #endregion
 
+        #region Tìm kiếm học sinh
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            m_HocSinhCtrl.TimKiemHocSinh(txtHoTen, cmbTheoNSinh, txtNoiSinh, cmbTheoDToc, cmbDanToc, cmbTheoTGiao, cmbTonGiao, dGVKetQuaTimKiem, bindingNavigatorKetQuaTimKiem);
+            
+            if (dGVKetQuaTimKiem.RowCount == 0)
+                MessageBoxEx.Show("Không có học sinh cần tìm trong hệ thống!", "THÔNG BÁO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        #endregion
+    }
 }
